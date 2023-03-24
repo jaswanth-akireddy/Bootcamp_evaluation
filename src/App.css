@@ -1,0 +1,104 @@
+.organism{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 19px;
+  gap: 10px;
+
+  position: absolute;
+  width: 571px;
+  height: 159px;
+  left: 20px;
+  top: 20px;
+
+
+  background: #FFFFFF;
+  border-radius: 12px;
+}
+
+.footer{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 144px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.internal-frame{
+  
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 33px;
+
+width: 462px;
+height: 127px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.internal-frame2{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 33px;
+
+width: 462px;
+height: 127px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.icons{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 144px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.mins{
+  width: 70px;
+height: 16px;
+
+/* gamma/Caption 1 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
